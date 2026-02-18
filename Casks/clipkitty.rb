@@ -1,8 +1,8 @@
 cask "clipkitty" do
-  version "1.7.15"
-  sha256 "16ce9525333a87b7690275f2778a16508cce003d7cb0cce32f65cb93c99179c6"
+  version "1.7.16"
+  sha256 "4ad8b5ef7e0dc99e4115ff5a98f9116a50b8615d019b386eff6279844957769e"
 
-  url "https://github.com/jul-sh/clipkitty/releases/download/v1.7.15/ClipKitty.dmg"
+  url "https://github.com/jul-sh/clipkitty/releases/download/v1.7.16/ClipKitty.dmg"
   name "ClipKitty"
   desc "Clipboard history manager with instant fuzzy search"
   homepage "https://github.com/jul-sh/clipkitty"
