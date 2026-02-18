@@ -1,6 +1,6 @@
 cask "clipkitty" do
   version "1.7.12"
-  sha256 "587483ef1fc6aae280be5ca2a6afeb5bc5d8252a24a346c8e365deb55044f824"
+  sha256 "76d6262d9cda6cc8cb39acf6060d1413123413d8584a1cd50539e047415c6d0e"
 
   url "https://github.com/jul-sh/clipkitty/releases/download/v1.7.12/ClipKitty.dmg"
   name "ClipKitty"
