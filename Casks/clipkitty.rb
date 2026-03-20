@@ -8,4 +8,10 @@ cask "clipkitty" do
   homepage "https://github.com/jul-sh/clipkitty"
 
   app "ClipKitty.app"
+
+  postflight do
+    system_command "/usr/sbin/chown",
+                   args: ["-R", "#{ENV["USER"]}:staff", "#{appdir}/ClipKitty.app"],
+                   sudo: true
+  end
 end
